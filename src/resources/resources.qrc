@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/resources/img">
+        <file alias="logo">img/logo_big.png</file>
+        <file alias="spacer">img/spacer.png</file>
+        <file alias="blue">img/blue.png</file>
+        <file alias="cyan">img/cyan.png</file>
+        <file alias="green">img/green.png</file>
+        <file alias="magenta">img/magenta.png</file>
+        <file alias="orange">img/orange.png</file>
+        <file alias="purple">img/purple.png</file>
+        <file alias="red">img/red.png</file>
+        <file alias="yellow">img/yellow.png</file>
+        <file alias="icon">img/logo.png</file>
+    </qresource>
+    <qresource prefix="/resources/text">
+        <file alias="about">text/about.html</file>
+        <file alias="howto">text/howto.html</file>
+    </qresource>
+</RCC>

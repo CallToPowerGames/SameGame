@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SameGame</class>
+ <widget class="QMainWindow" name="SameGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>SameGame</string>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="action_About"/>
+    <addaction name="actionAbout_this_Game"/>
+    <addaction name="separator"/>
+    <addaction name="action_Quit"/>
+   </widget>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <widget class="QMenu" name="menuMode">
+     <property name="title">
+      <string>Mode</string>
+     </property>
+     <addaction name="action_ModeNormal"/>
+     <addaction name="action_ModeEasy"/>
+    </widget>
+    <widget class="QMenu" name="menuStyle">
+     <property name="title">
+      <string>Style</string>
+     </property>
+     <addaction name="action_Images"/>
+     <addaction name="action_One_Color"/>
+    </widget>
+    <widget class="QMenu" name="menuColors">
+     <property name="title">
+      <string>Colors</string>
+     </property>
+     <addaction name="action3_Colors"/>
+     <addaction name="action4_Colors"/>
+     <addaction name="action5_Colors"/>
+     <addaction name="action6_Colors"/>
+     <addaction name="action7_Colors"/>
+     <addaction name="action8_Colors"/>
+    </widget>
+    <addaction name="actionNew_Game"/>
+    <addaction name="actionUndo"/>
+    <addaction name="separator"/>
+    <addaction name="menuMode"/>
+    <addaction name="menuColors"/>
+    <addaction name="separator"/>
+    <addaction name="menuStyle"/>
+   </widget>
+   <addaction name="menuOptions"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_Game">
+   <property name="text">
+    <string>New Game</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="action_About">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionAbout_this_Game">
+   <property name="text">
+    <string>How to play</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="action_ModeNormal">
+   <property name="text">
+    <string>Normal</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+1</string>
+   </property>
+  </action>
+  <action name="action_ModeEasy">
+   <property name="text">
+    <string>Easy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+2</string>
+   </property>
+  </action>
+  <action name="action_Images">
+   <property name="text">
+    <string>With Images</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+3</string>
+   </property>
+  </action>
+  <action name="action_One_Color">
+   <property name="text">
+    <string>Without Images</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+4</string>
+   </property>
+  </action>
+  <action name="action3_Colors">
+   <property name="text">
+    <string>3 Colors</string>
+   </property>
+  </action>
+  <action name="action4_Colors">
+   <property name="text">
+    <string>4 Colors</string>
+   </property>
+  </action>
+  <action name="action5_Colors">
+   <property name="text">
+    <string>5 Colors</string>
+   </property>
+  </action>
+  <action name="action6_Colors">
+   <property name="text">
+    <string>6 Colors</string>
+   </property>
+  </action>
+  <action name="action7_Colors">
+   <property name="text">
+    <string>7 Colors</string>
+   </property>
+  </action>
+  <action name="action8_Colors">
+   <property name="text">
+    <string>8 Colors</string>
+   </property>
+  </action>
+  <action name="action_About_Qt">
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="action_Quit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
